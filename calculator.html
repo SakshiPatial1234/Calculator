@@ -1,0 +1,105 @@
+
+<html>
+ <head>
+ <title>calculator</title>
+ <link href="style.css" type="text/css" rel="stylesheet">
+
+ <script type="text/javascript" src="javas.js"></script>
+ </head>
+<body>
+ <table>
+ <tr>
+ <td>
+ <input type="text" value="" id="text1">
+ </td>
+ <td>
+ <input type="text" value="" id="text2">
+ </td>
+
+ <td>
+ <input type="text" value="" id="opr">
+ </td>
+ <td>
+ <input type="text" value="" id="res">
+ </td>
+ <td>
+ <button onclick="operation('SQRT')">SQRT</button>
+ </td>
+
+ </tr>
+ <tr>
+ <td>
+ <button onclick="set_num(1)">1</button>
+ </td>
+ <td>
+ <button onclick="set_num(2)">2</button>
+ </td>
+ <td>
+ <button onclick="set_num(3)">3</button>
+ </td>
+ <td>
+ <button onclick="operation('+')">+</button>
+ </td>
+ <td>
+ <button onclick="operation('sq')">X<sup>2</sup></button>
+ </td>
+
+ </tr>
+ <tr>
+ <td>
+ <button onclick="set_num(4)">4</button>
+ </td>
+ <td>
+ <button onclick="set_num(5)">5</button>
+ </td>
+ <td>
+ <button onclick="set_num(6)">6</button>
+ </td>
+<td>
+ <button onclick="operation('-')">-</button>
+ </td>
+
+ <td>
+ <button onclick="operation('cube')">Cube</button>
+ </td>
+
+ </tr>
+ <tr>
+ <td>
+ <button onclick="set_num(7)">7</button>
+ </td>
+ <td>
+ <button onclick="set_num(8)">8</button>
+ </td>
+ <td>
+ <button onclick="set_num(9)">9</button>
+ </td>
+ <td>
+ <button onclick="operation('*')">*</button>
+ </td>
+ <td>
+ <button onclick="operation('lg')">lg</button>
+ </td>
+
+ </tr>
+ <tr>
+ <td>
+ <button onclick="cl()">Clear</button>
+ </td>
+ <td>
+ <button onclick="set_num(0)">0</button>
+ </td>
+ <td>
+ <button onclick="cal()">=</button>
+ </td>
+<td>
+ <button onclick="operation('/')">/</button>
+ </td>
+ <td>
+ <button onclick="operation('%')">%</button>
+ </td>
+ </tr>
+ </table>
+</body>
+</html>
+
